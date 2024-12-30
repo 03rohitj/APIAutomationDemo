@@ -1,0 +1,83 @@
+09:18:47.718 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+09:18:47.753 [main] INFO  com.api.listeners.TestListener - Test Started : login
+09:18:49.166 [main] INFO  com.api.listeners.TestListener - Passed - Test : login
+09:18:49.167 [main] INFO  com.api.listeners.TestListener - Description : Verify if login api is working fine
+09:18:49.168 [main] INFO  com.api.listeners.TestListener - Test Suite Finished!!!
+11:51:17.258 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+11:51:17.289 [main] INFO  com.api.listeners.TestListener - Test Started : login
+11:51:18.166 [main] INFO  com.api.filters.LoggingFilter - Base URI         : http://64.227.160.186:8080
+11:51:18.166 [main] INFO  com.api.filters.LoggingFilter - Request Header   : Accept=*/*
+Content-Type=application/json
+11:51:18.177 [main] INFO  com.api.filters.LoggingFilter - Request Payload  : {"username":"Kingsley","password":"Kingsley"}
+11:51:18.527 [main] INFO  com.api.filters.LoggingFilter - Response Status Code : 200
+11:51:18.527 [main] INFO  com.api.filters.LoggingFilter - Response Header      : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 30 Dec 2024 06:21:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+11:51:18.551 [main] INFO  com.api.filters.LoggingFilter - Response Payload     : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLaW5nc2xleSIsImlhdCI6MTczNTUzOTY3NywiZXhwIjoxNzM1NTQzMjc3fQ.RMBaXTfusvOBeudyzeyAw3dGfVG8P6cF4WKSoXR4m4U",
+    "type": "Bearer",
+    "id": 519,
+    "username": "Kingsley",
+    "email": "KingsleyShackleboltCool@yopmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+11:51:18.591 [main] INFO  com.api.listeners.TestListener - Passed - Test : login
+11:51:18.591 [main] INFO  com.api.listeners.TestListener - Description : Verify if login api is working fine
+11:51:18.594 [main] INFO  com.api.listeners.TestListener - Test Suite Finished!!!
+12:27:17.947 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+12:27:17.971 [main] INFO  com.api.listeners.TestListener - Test Started : login
+12:27:18.827 [main] INFO  com.api.filters.LoggingFilter - Base URI         : http://64.227.160.186:8080
+12:27:18.827 [main] INFO  com.api.filters.LoggingFilter - Request Header   : Accept=*/*
+Content-Type=application/json
+12:27:18.827 [main] INFO  com.api.filters.LoggingFilter - Request Payload  : {"username":"Kingsley","password":"Kingsley"}
+12:27:19.169 [main] INFO  com.api.filters.LoggingFilter - Response Status Code : 200
+12:27:19.170 [main] INFO  com.api.filters.LoggingFilter - Response Header      : Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 30 Dec 2024 06:57:18 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:27:19.196 [main] INFO  com.api.filters.LoggingFilter - Response Payload     : {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLaW5nc2xleSIsImlhdCI6MTczNTU0MTgzOCwiZXhwIjoxNzM1NTQ1NDM4fQ.EisHtCgOVXrszO7iYhQxBQjS7Sq8WghFfxQ9XFcc3lo",
+    "type": "Bearer",
+    "id": 519,
+    "username": "Kingsley",
+    "email": "KingsleyShackleboltCool@yopmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+12:27:19.235 [main] INFO  com.api.listeners.TestListener - Passed - Test : login
+12:27:19.236 [main] INFO  com.api.listeners.TestListener - Description : Verify if login api is working fine
+12:27:19.253 [main] INFO  com.api.listeners.TestListener - Test Suite Finished!!!

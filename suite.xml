@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite">
+    <test name="API Test" thread-count="5">
+        <classes>
+<!--            <class name="com.api.tests.AccountCreationTest">-->
+<!--                <methods>-->
+<!--                    <include name="createAccountTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.api.tests.ForgotPasswordTest">-->
+<!--                <methods>-->
+<!--                    <include name="forgotPasswordTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.api.tests.GetProfileRequestTest">-->
+<!--                <methods>-->
+<!--                    <include name="getProfileRequest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="com.api.tests.LoginAPITest">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+<!--            <class name="com.api.tests.UpdateProfileTest">-->
+<!--                <methods>-->
+<!--                    <include name="updateProfileTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
